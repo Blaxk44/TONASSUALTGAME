@@ -36,4 +36,5 @@ try {
 }
 
 // Make config available globally
+
 window.FIREBASE_CONFIG = FIREBASE_CONFIG;
