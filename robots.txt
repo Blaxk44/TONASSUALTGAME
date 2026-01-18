@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /admin-panel.html
+Crawl-delay: 2
+
+# Sitemap
+Sitemap: https://your-domain.railway.app/sitemap.xml
+
+# Telegram Bot
+User-agent: TelegramBot
+Allow: /
+
+# Ads bots
+User-agent: AdsBot-Google
+Allow: /

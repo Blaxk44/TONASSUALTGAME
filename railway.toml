@@ -1,0 +1,27 @@
+[build]
+  nixpacks = { plan = "node" }
+
+[deploy]
+  healthcheckPath = "/health"
+  restartPolicyType = "ON_FAILURE"
+
+[variables]
+  # Firebase Configuration
+  FIREBASE_API_KEY = "AIzaSyBOETGieVSUrO9Bx52Eml3Kf0kAXYKiP1c"
+  FIREBASE_AUTH_DOMAIN = "ton-assault-game.firebaseapp.com"
+  FIREBASE_PROJECT_ID = "ton-assault-game"
+  FIREBASE_STORAGE_BUCKET = "ton-assault-game.firebasestorage.app"
+  FIREBASE_MESSAGING_SENDER_ID = "879983779292"
+  FIREBASE_APP_ID = "1:879983779292:web:bd0dc7c28d02b145af4319"
+  
+  # Admin Settings
+  ADMIN_PASSWORD = "tonadmin123"
+  ADMIN_TOKEN = "Asdfghjkl@123"
+  
+  # Server Settings
+  PORT = "3000"
+  NODE_ENV = "production"
+  
+  # Telegram Bot (if any)
+  TELEGRAM_BOT_TOKEN = "8535275737:AAGfrBE6fGOG7tZPGZcqf7mmGD3f7IBqov4"
+  TELEGRAM_BOT_WEBHOOK = "t.me/ton_assualt_game_bot/start"
